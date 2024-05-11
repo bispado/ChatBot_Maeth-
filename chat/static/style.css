@@ -44,6 +44,7 @@
 }
 
 .home_main a {
+    color: white;
     font-size: 2em;
     background-color: var(--cor_1);
     display: block;
