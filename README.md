@@ -10,7 +10,7 @@ Passos para inicializar o projeto depois de instalado:
 
 1 - Certifique-se que o ambiente virtual foi ativo, se não escreva no terminal "venv/Scripts/activate" (sem as áspas) <br>
 2 - Digite no terminal python manage.py runserver <br>
-3 - Copie o IP e taque no seu navegador <br>
+3 - Copie o IP disponibilizado no terminal e coloque o ip no seu navegador <br>
 4 - Certifique-se de ter uma key da API Gemini <br>
 Link para ter acesso ao Gemini API KEY: [Clique aqui](https://aistudio.google.com/app/apikey/?utm_source=website&utm_medium=referral&utm_campaign=Alura&utm_content=).<br>
 
