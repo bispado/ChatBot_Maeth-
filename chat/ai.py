@@ -138,23 +138,3 @@ def converter_negrito(texto):
 
 def substituir_asteriscos_por_br(texto):
     return texto.replace('*', '<br>')
-
-#Código para rodar o chat no terminal:
-    #    while True:
-    #   texto = input("Escreva sua mensagem (ou 'sair'): ")
-    #    if texto.lower() == "sair":
-    #        break
-    #   # Gerar embedding da pergunta
-    #   embedding_pergunta = embedder.encode(texto, convert_to_tensor=True)
-
-        # Encontrar o documento mais similar
-    #    similaridades = util.pytorch_cos_sim(embedding_pergunta, embeddings_banco_de_dados)[0]
-    #    indice_documento_similar = torch.argmax(similaridades).item()
-    #    documento_relevante = banco_de_dados[indice_documento_similar]
-    #    # Construir prompt com o documento relevante como contexto
-    #    prompt = f"Contexto: {documento_relevante}\n\nPergunta do usuário: {message}"
-    #    response = chat.send_message(prompt)
-
-    #   print(response.text, "\n")
-
-    # print("Encerrando Chat")]
