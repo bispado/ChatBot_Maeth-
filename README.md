@@ -21,7 +21,7 @@ Link para ter acesso ao Gemini API KEY: [Clique aqui](https://aistudio.google.co
 O projeto Maithê Ai é um chat bot integrado com o Gemini utizando dos conteúdos gratuitos disponibilizados na imersão Inteligência Artificial da Alura, o intuito do projeto é conscientizar o usuários sobre á tragédia que está ocorrendo no Rio Grande Do Sul. <br>
 O objetivo principal do projeto é combater as fake news trazendo informações oficiais de ONGs bem avaliadas, informar sobre a tragédia de forma intuitiva e citar maneiras de como cada um pode ajudar nessa situação de urgência.
 
-![image](https://github.com/bispado/ChatBot_Maeth-/assets/160679773/f61a40f4-adc8-4d9f-9976-0c151f1926c6)
+![image](https://github.com/bispado/ChatBot_Maeth-/assets/160679773/6371827d-0697-45dc-a58f-278afd636d3e)
 
 
 **O site tem portábilidade mobile:**
