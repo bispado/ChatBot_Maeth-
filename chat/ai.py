@@ -5,7 +5,7 @@ import torch
 
 def get_ai_response(message):
 
-    genai.configure(api_key="AIzaSyBWtBc6lLG7O4N1H-9oGgAOeJI3CYKodxw")
+    genai.configure(api_key="sua-api-key")
     for m in genai.list_models():
         if 'generateContent' in m.supported_generation_methods:
             print(m.name)
