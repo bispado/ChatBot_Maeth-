@@ -1,3 +1,18 @@
+Passos de instalação:
+
+1 - Selecione a pasta do projeto no seu editor de códigos/terminal <br>
+2 - Abra um novo terminal escreva "venv/Scripts/activate" nele (sem as áspas) para ativar o ambiente virtual <br>
+3 - digite pip install -r requirements.txts <br>
+
+Passos para inicializar o projeto depois de instalado:
+
+1 - Certifique-se que o ambiente virtual foi ativo, se não escreva no terminal "venv/Scripts/activate" (sem as áspas) <br>
+2 - Digite no terminal python manage.py runserver <br>
+3 - Copie o IP e taque no seu navegador <br>
+4 - Certifique-se de ter uma key da API Gemini <br>
+Link para ter acesso ao Gemini API KEY: [Clique aqui](https://aistudio.google.com/app/apikey/?utm_source=website&utm_medium=referral&utm_campaign=Alura&utm_content=).<br>
+
+
 # ChatBot_Maethe
 ![image](https://github.com/bispado/ChatBot_Maeth-/assets/160679773/d98235f3-6f82-49d9-82e2-b86bb1a3b51d)
 
