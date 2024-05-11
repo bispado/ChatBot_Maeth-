@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Digite sua mensagem:</h1>
+    <form action="" method="POST">
+        {% csrf_token %}
+        <input type="text" name="message" id="message">
+    </form>
+    
+    {% if messages %}
+        {% for message in messages %}
+        <p>{{message.body}}</p>
+        {% endfor %}
+    {% else %}
+        <p>There are no messages yet!</p>
+    {% endif %}
+    
+    <a href="{% url 'reset' %}">Resetar Chat</a>
+
+</body>
+</html>

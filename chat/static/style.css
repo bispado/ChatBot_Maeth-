@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root {
+    --cor_1: #408578;
+    --cor_2: #5DC1AF;
+    --cor_3: #e9e9e9;
+}
+
+* {
+
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Home Mobile version */ /* Usar o display grid na config pra pc */ 
+
+
+
+.body_main {
+    background: url(images/background.jpg);
+    height: 100vh;
+    
+}
+
+.home_main {
+
+    position: absolute;
+    top: 40%;
+    width: 100vw;
+
+    font-family: Koulen;
+    color: #F1F1F1F1;
+    text-align: center;
+}
+
+.home_main h1 {
+    font-size: 4em;
+    line-height: 45px;
+}
+
+.home_main p {
+    font-size: 1.2em;
+}
+
+.home_main a {
+    font-size: 2em;
+    background-color: var(--cor_1);
+    display: block;
+    margin-top: 10px;
+    margin: auto;
+    width: 300px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.home_main a:visited {
+    color: white;
+}
+
+.home_footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height: 15vh;
+    width:100%;
+    background-color: #F1F1F1;
+}
+
+/* Chat */
+
+.chat_body {
+    font-family: Inria Sans;
+    background-color: var(--cor_3);
+}
+
+.chat_header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--cor_2);
+    color: #fff;
+
+    font-size: 1.8em;
+    box-shadow: 0px 3px 4px var(--cor_2);
+    
+}
+
+.trash_icon {
+    align-items: flex-end;
+}
+
+.p_header {
+    width: 100px;
+    margin-right: auto;
+}
+
+.chat {
+    height: 73vh;
+    padding: 10px;  
+    background-color: var(--cor_3);
+}
+
+.bot_message, .user_message {
+    display: inline-block;
+    clear: both;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px; 
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.369);
+}
+
+.bot_message{
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+    float: left;
+    max-width: 70%;
+    margin-bottom: 10px;
+}
+
+.user_message {
+    background-color: #5DC1AF;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    float: right;
+    max-width: 70%;
+    margin-bottom: 10px;
+}
+
+.chat_footer {
+    
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    left:0px;
+    bottom:0px;
+    height: 15vh;
+    width:100%;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.369);
+}
+
+.chat_icon {
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+}
+
+.send_icon {
+    text-align: center;
+}
+
+
+
+form input[type='text'] {
+    width: 100%; /* Ocupa toda a largura disponível do formulário */
+    padding: 8px; /* Adiciona um preenchimento interno */
+    border: 0px solid #ccc; /* Adiciona uma borda */
+    border-radius: 5px; /* Adiciona cantos arredondados */
+    box-sizing: border-box; /* Garante que o preenchimento e a borda estejam incluídos na largura */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
